@@ -1,0 +1,55 @@
+/*Definindo estilo de tudo o que estiver no body*/
+body{ 
+    font-family: 'Times New Roman', Times, serif ; /*Definindo fonte do site*/
+    font-size: 20px; /*Definição do tamanho da fonte*/
+    margin: 0px; /*Definição de tamanho de margem*/
+    background-color: #f1dcf5; /*Cor do fundo do site*/
+    color: #2d053a; /*Cor da fonte*/
+}
+
+/*Definindo estilo ao cabeçalho*/
+.header{
+    background-color: #2d053a;
+    color: #ffffff;
+    text-align: center;
+    font-style: italic;
+    font-size: 35px;
+    padding: 1em 0;
+ }
+/*Definindo estilo ao rodapé*/
+ footer{
+    background-color: #2d053a;
+    color:#ffffff;
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    padding: 1em 0;
+ }
+/*Criando classe para subtítulo*/
+ .subtitulo{
+    font-family: 'Times New Roman', Times, serif ; /*Definindo fonte do site*/
+    font-size: 50px;
+    text-align: center;
+ }
+
+ .stylediv{
+   background-color: #641081;
+   color:#ffffff;
+   text-align: center;
+   font-style: italic;
+   font-size: 20px;
+   padding: 1em 0;
+   border-radius: 20px;
+ }
+
+ .container1 img{
+   width: 600px;
+   height: 400px;
+   border-radius: 20px;
+ }
+
+ .container2 img{
+   width: 700px;
+   height: 400px;
+   border-radius: 20px;
+ }

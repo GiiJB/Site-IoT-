@@ -1,0 +1,77 @@
+/*Definindo estilo de tudo o que estiver no body*/
+body{ 
+    font-family: 'Times New Roman', Times, serif ; /*Definindo fonte do site*/
+    font-size: 15px; /*Definição do tamanho da fonte*/
+    margin: 0px; /*Definição de tamanho de margem*/
+    background-color: #f1dcf5; /*Cor do fundo do site*/
+    color: #2d053a; /*Cor da fonte*/
+}
+ .header1{
+    background-color: #641081; /*Cor do fundo*/
+    color: #ffffff; /*Cor da fonte*/
+    text-align: center; /*Alinhando texto ao centro*/
+    font-style: italic; /*Configurando fonte em itálico*/
+    font-size: 20px; /*Definindo tamanho de fonte*/
+    padding: 1em 0; /*Atribuição de padding*/
+    margin: 3px; /*Definindo tamanho de margem*/
+    border-radius: 20px; /*Arredontamento das bordas*/
+ }
+ 
+ .header2{
+   background-color: #2d053a; /*Cor do fundo*/
+   color:#ffffff; /*Cor da fonte*/
+   text-align: center; /*Centraliza o texto*/
+   font-style: italic; /*Estilo da fonte*/
+   font-size: 20px; /*Tamanho da fonte*/
+   padding: 1em 0; /*Atribuição de padding*/
+ }
+
+ footer{
+    background-color: #2d053a; /*Cor do fundo*/
+    color:#ffffff; /*Cor da fonte*/
+    text-align: center; /*Centraliza o texto*/
+    font-style: italic; /*Estilo da fonte*/
+    font-size: 20px; /*Tamanho da fonte*/
+    padding: 1em 0; /*Atribuição de padding*/
+ }
+
+ .subtitulo{
+    font-family: 'Times New Roman', Times, serif ; /*Mantendo fonte padrão do site*/
+    font-size: 25px; /*Definindo tamanho da fonte na classe*/
+}
+ .container {
+    position: relative;
+    width: 80%;         /*Define a largura da div*/
+    margin: 0 auto;     /*Centraliza a div na tela*/
+    background-color: #f1dcf5; /*Cor de fundo*/
+    padding: 20px;      /*Espaçamento interno*/
+    border-radius: 10px; /*Bordas arredondadas*/
+}
+
+.container img{
+    position: absolute;/*Define posição*/
+    top: 10px; /*Espaço acima do elemento*/
+    right: 10px; /*Proximidade da imagem do texto*/
+    max-width: 200px; /*Largura máxima*/
+    height: auto; /*Altura automática*/
+    border-radius: 100px; /*Cria bordas para deixar imagem redonda*/
+}
+
+nav {
+    display: inline-block; /*Permite navegação de display*/
+}
+nav a {
+    color: white; /*Cor da fonte*/
+    text-decoration: none;/*Mantém decoração da Div que está alocado*/
+    padding: 10px 20px; /*Definição do padding*/
+    display: inline-block;/*Permite navegação de display*/
+    transition: background-color 0.3s ease; /*Cria pequena transição para quando o usuário passar o cursor do mouse em cima*/
+}
+nav a:hover {
+        color: #8147ff; /*Muda a cor do texto*/
+        font-size: 35px; /*Aumenta o tamanho do texto*/
+        border-bottom: 2px solid #8147ff; /*Adiciona uma borda inferior*/
+        background-color: #f0f0f0; /*Muda a cor de fundo*/
+        padding: 2px 4px; /*Adiciona um pouco de padding*/
+        border-radius: 4px; /*Arredonda os cantos*/
+    }
